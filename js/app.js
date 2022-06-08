@@ -37,18 +37,3 @@ function adicionarCard(dados) {
 
     });
 }
-
-function removeCard() {
-    contasCriadas.pop()
-}
-
-
-
-let nome = prompt('Digite seu nome: ')
-let idade = parseInt(prompt('Digite sua idade: '))
-
-if (idade >= 18) {
-    alert(`${nome}, vocẽ é maior de idade!`)
-} else {
-    alert(`${nome}, você é menor de idade`)
-}
